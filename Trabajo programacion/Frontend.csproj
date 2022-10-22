@@ -52,14 +52,17 @@
     <Compile Include="Luminiscencia.Designer.cs">
       <DependentUpon>Luminiscencia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Consumos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Consumos.Designer.cs">
+      <DependentUpon>Consumos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consumos.resx">
+      <DependentUpon>Consumos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Luminiscencia.resx">
       <DependentUpon>Luminiscencia.cs</DependentUpon>
     </EmbeddedResource>

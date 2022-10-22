@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRoom = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblLargo = new System.Windows.Forms.Label();
@@ -92,6 +92,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.dgvLuminiscencia = new System.Windows.Forms.DataGridView();
             this.btnBorrar = new System.Windows.Forms.Button();
+            this.btnConsumo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLuminiscencia)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,9 +111,9 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.txtNombre.BackColor = System.Drawing.Color.BlueViolet;
             this.txtNombre.Font = new System.Drawing.Font("Unispace", 11F, System.Drawing.FontStyle.Bold);
-            this.txtNombre.ForeColor = System.Drawing.Color.Cyan;
+            this.txtNombre.ForeColor = System.Drawing.Color.White;
             this.txtNombre.Location = new System.Drawing.Point(110, 55);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
@@ -357,9 +358,9 @@
             // 
             // txtLampNomb
             // 
-            this.txtLampNomb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.txtLampNomb.BackColor = System.Drawing.Color.BlueViolet;
             this.txtLampNomb.Font = new System.Drawing.Font("Unispace", 11F, System.Drawing.FontStyle.Bold);
-            this.txtLampNomb.ForeColor = System.Drawing.Color.Cyan;
+            this.txtLampNomb.ForeColor = System.Drawing.Color.White;
             this.txtLampNomb.Location = new System.Drawing.Point(779, 54);
             this.txtLampNomb.Margin = new System.Windows.Forms.Padding(4);
             this.txtLampNomb.Name = "txtLampNomb";
@@ -444,13 +445,13 @@
             // 
             // btnIndK
             // 
-            this.btnIndK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnIndK.BackColor = System.Drawing.Color.BlueViolet;
             this.btnIndK.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            this.btnIndK.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnIndK.ForeColor = System.Drawing.Color.White;
             this.btnIndK.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnIndK.Location = new System.Drawing.Point(237, 353);
+            this.btnIndK.Location = new System.Drawing.Point(216, 353);
             this.btnIndK.Name = "btnIndK";
-            this.btnIndK.Size = new System.Drawing.Size(40, 30);
+            this.btnIndK.Size = new System.Drawing.Size(61, 30);
             this.btnIndK.TabIndex = 36;
             this.btnIndK.Text = "=";
             this.btnIndK.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -459,13 +460,13 @@
             // 
             // btnFlujoLum
             // 
-            this.btnFlujoLum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnFlujoLum.BackColor = System.Drawing.Color.BlueViolet;
             this.btnFlujoLum.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            this.btnFlujoLum.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnFlujoLum.ForeColor = System.Drawing.Color.White;
             this.btnFlujoLum.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnFlujoLum.Location = new System.Drawing.Point(578, 359);
+            this.btnFlujoLum.Location = new System.Drawing.Point(558, 359);
             this.btnFlujoLum.Name = "btnFlujoLum";
-            this.btnFlujoLum.Size = new System.Drawing.Size(40, 30);
+            this.btnFlujoLum.Size = new System.Drawing.Size(60, 30);
             this.btnFlujoLum.TabIndex = 37;
             this.btnFlujoLum.Text = "=";
             this.btnFlujoLum.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -498,12 +499,12 @@
             // 
             // btnIlum
             // 
-            this.btnIlum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnIlum.BackColor = System.Drawing.Color.BlueViolet;
             this.btnIlum.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            this.btnIlum.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnIlum.Location = new System.Drawing.Point(812, 242);
+            this.btnIlum.ForeColor = System.Drawing.Color.White;
+            this.btnIlum.Location = new System.Drawing.Point(788, 242);
             this.btnIlum.Name = "btnIlum";
-            this.btnIlum.Size = new System.Drawing.Size(40, 30);
+            this.btnIlum.Size = new System.Drawing.Size(64, 30);
             this.btnIlum.TabIndex = 40;
             this.btnIlum.Text = "=";
             this.btnIlum.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -811,7 +812,7 @@
             this.btnCargar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargar.ForeColor = System.Drawing.Color.White;
-            this.btnCargar.Location = new System.Drawing.Point(1276, 560);
+            this.btnCargar.Location = new System.Drawing.Point(1281, 562);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(75, 30);
             this.btnCargar.TabIndex = 63;
@@ -843,30 +844,30 @@
             this.dgvLuminiscencia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvLuminiscencia.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dgvLuminiscencia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Purple;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvLuminiscencia.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(180)))), ((int)(((byte)(249)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Purple;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvLuminiscencia.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvLuminiscencia.Location = new System.Drawing.Point(0, 460);
             this.dgvLuminiscencia.Name = "dgvLuminiscencia";
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Purple;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvLuminiscencia.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Purple;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvLuminiscencia.RowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Purple;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvLuminiscencia.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Purple;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.dgvLuminiscencia.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvLuminiscencia.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvLuminiscencia.Size = new System.Drawing.Size(1249, 309);
             this.dgvLuminiscencia.TabIndex = 65;
@@ -876,13 +877,26 @@
             this.btnBorrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrar.ForeColor = System.Drawing.Color.White;
-            this.btnBorrar.Location = new System.Drawing.Point(1276, 610);
+            this.btnBorrar.Location = new System.Drawing.Point(1281, 612);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(75, 30);
             this.btnBorrar.TabIndex = 66;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
+            // btnConsumo
+            // 
+            this.btnConsumo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnConsumo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsumo.ForeColor = System.Drawing.Color.White;
+            this.btnConsumo.Location = new System.Drawing.Point(1261, 702);
+            this.btnConsumo.Name = "btnConsumo";
+            this.btnConsumo.Size = new System.Drawing.Size(95, 30);
+            this.btnConsumo.TabIndex = 67;
+            this.btnConsumo.Text = "Consumo";
+            this.btnConsumo.UseVisualStyleBackColor = false;
+            this.btnConsumo.Click += new System.EventHandler(this.btnConsumo_Click);
             // 
             // Luminiscencia
             // 
@@ -892,6 +906,7 @@
             this.BackgroundImage = global::Trabajo_programacion.Properties.Resources.Comprá_en_Vrtice__3_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1365, 771);
+            this.Controls.Add(this.btnConsumo);
             this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.dgvLuminiscencia);
             this.Controls.Add(this.btnLimpiar);
@@ -960,7 +975,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Luminiscencia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "º";
+            this.Text = "Luminiscencia";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLuminiscencia)).EndInit();
             this.ResumeLayout(false);
@@ -1029,8 +1044,9 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Button btnCargar;
         private System.Windows.Forms.Button btnLimpiar;
-        private System.Windows.Forms.DataGridView dgvLuminiscencia;
         private System.Windows.Forms.Button btnBorrar;
+        private System.Windows.Forms.Button btnConsumo;
+        public System.Windows.Forms.DataGridView dgvLuminiscencia;
     }
 }
 

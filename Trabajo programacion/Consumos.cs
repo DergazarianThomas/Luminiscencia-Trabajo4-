@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace Trabajo_programacion
 {
-    public partial class Form2 : Form
+    public partial class Consumos : Form
     {
-        public Form2()
+        internal static DataTable dtConsumos = new DataTable() { TableName = "Consumos" };
+
+        
+
+        public Consumos()
         {
             InitializeComponent();
+
+ 
+           dgvConsumo.DataSource = dtConsumos;
+         
         }
+
+
     }
+
+    
 }

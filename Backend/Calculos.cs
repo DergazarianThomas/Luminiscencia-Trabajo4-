@@ -26,10 +26,6 @@ namespace Backend
         private double LampTotal;
         private double PotTotal;
 
-        
-
-
-
 
         // calculos de IndiceK
         public string IndiceK(string largo, string ancho, string altura)
@@ -139,12 +135,12 @@ namespace Backend
 
 
 
-        
-       
 
 
-     
-       }
+
+
+
+    }
 
 
     }
